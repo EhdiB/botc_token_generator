@@ -1,0 +1,19 @@
+{
+    "id": "huntsman",
+    "name": "Huntsman",
+    "edition": "",
+    "team": "townsfolk",
+    "firstNight": 30,
+    "firstNightReminder": "The Huntsman shakes their head 'no' or points to a player. If they point to the Damsel, wake that player, show the 'You are' card and a not-in-play character token.",
+    "otherNight": 51,
+    "otherNightReminder": "The Huntsman shakes their head 'no' or points to a player. If they point to the Damsel, wake that player, show the 'You are' card and a not-in-play character token.",
+    "reminders": [
+        "No ability"
+    ],
+    "setup": true,
+    "ability": "Once per game, at night, choose a living player: the Damsel, if chosen, becomes a not-in-play Townsfolk. [+the Damsel]",
+    "image": "/build/img/icons/townsfolk/huntsman.png",
+    "icon": "huntsman.png",
+    "home_script": "experimental",
+    "type": "townsfolk"
+}

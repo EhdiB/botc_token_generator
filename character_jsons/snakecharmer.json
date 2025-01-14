@@ -1,0 +1,19 @@
+{
+    "id": "snakecharmer",
+    "name": "Snake Charmer",
+    "edition": "snv",
+    "team": "townsfolk",
+    "firstNight": 20,
+    "firstNightReminder": "The Snake Charmer points to a player. If that player is the Demon: swap the Demon and Snake Charmer character and alignments. Wake each player to inform them of their new role and alignment. The new Snake Charmer is poisoned.",
+    "otherNight": 12,
+    "otherNightReminder": "The Snake Charmer points to a player. If that player is the Demon: swap the Demon and Snake Charmer character and alignments. Wake each player to inform them of their new role and alignment. The new Snake Charmer is poisoned.",
+    "reminders": [
+        "Poisoned"
+    ],
+    "setup": false,
+    "ability": "Each night, choose an alive player: a chosen Demon swaps characters & alignments with you & is then poisoned.",
+    "image": "/build/img/icons/townsfolk/snakecharmer.png",
+    "icon": "snakecharmer.png",
+    "home_script": "experimental",
+    "type": "townsfolk"
+}

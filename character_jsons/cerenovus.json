@@ -1,0 +1,19 @@
+{
+    "id": "cerenovus",
+    "name": "Cerenovus",
+    "edition": "snv",
+    "team": "minion",
+    "firstNight": 25,
+    "firstNightReminder": "The Cerenovus points to a player, then to a character on their sheet. Wake that player. Show the 'This character selected you' card, then the Cerenovus token. Show the selected character token. If the player is not mad about being that character tomorrow, they can be executed.",
+    "otherNight": 16,
+    "otherNightReminder": "The Cerenovus points to a player, then to a character on their sheet. Wake that player. Show the 'This character selected you' card, then the Cerenovus token. Show the selected character token. If the player is not mad about being that character tomorrow, they can be executed.",
+    "reminders": [
+        "Mad"
+    ],
+    "setup": false,
+    "ability": "Each night, choose a player & a good character: they are \"mad\" they are this character tomorrow, or might be executed.",
+    "image": "/build/img/icons/minion/cerenovus.png",
+    "icon": "cerenovus.png",
+    "home_script": "experimental",
+    "type": "minion"
+}

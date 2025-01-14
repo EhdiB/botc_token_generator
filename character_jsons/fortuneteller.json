@@ -1,0 +1,19 @@
+{
+    "id": "fortuneteller",
+    "name": "Fortune Teller",
+    "edition": "tb",
+    "team": "townsfolk",
+    "firstNight": 37,
+    "firstNightReminder": "The Fortune Teller points to two players. Give the head signal (nod yes, shake no) for whether one of those players is the Demon. ",
+    "otherNight": 54,
+    "otherNightReminder": "The Fortune Teller points to two players. Show the head signal (nod 'yes', shake 'no') for whether one of those players is the Demon.",
+    "reminders": [
+        "Red herring"
+    ],
+    "setup": false,
+    "ability": "Each night, choose 2 players: you learn if either is a Demon. There is a good player that registers as a Demon to you.",
+    "image": "/build/img/icons/townsfolk/fortuneteller.png",
+    "icon": "fortuneteller.png",
+    "home_script": "experimental",
+    "type": "townsfolk"
+}

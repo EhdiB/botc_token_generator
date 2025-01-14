@@ -1,0 +1,19 @@
+{
+    "id": "ojo",
+    "name": "Ojo",
+    "edition": "",
+    "team": "demon",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 32,
+    "otherNightReminder": "The Ojo points to a character on the sheet; if in play, that player dies. If it is not in play, the Storyteller chooses who dies instead.",
+    "reminders": [
+        "Dead"
+    ],
+    "setup": false,
+    "ability": "Each night*, choose a character: they die. If they are not in play, the Storyteller chooses who dies.",
+    "image": "/build/img/icons/demon/ojo.png",
+    "icon": "ojo.png",
+    "home_script": "experimental",
+    "type": "demon"
+}

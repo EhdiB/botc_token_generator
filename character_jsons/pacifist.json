@@ -1,0 +1,17 @@
+{
+    "id": "pacifist",
+    "name": "Pacifist",
+    "edition": "bmr",
+    "team": "townsfolk",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "ability": "Executed good players might not die.",
+    "image": "/build/img/icons/townsfolk/pacifist.png",
+    "icon": "pacifist.png",
+    "home_script": "experimental",
+    "type": "townsfolk"
+}

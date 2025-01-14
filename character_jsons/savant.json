@@ -1,0 +1,17 @@
+{
+    "id": "savant",
+    "name": "Savant",
+    "edition": "snv",
+    "team": "townsfolk",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "ability": "Each day, you may visit the Storyteller to learn 2 things in private: 1 is true & 1 is false.",
+    "image": "/build/img/icons/townsfolk/savant.png",
+    "icon": "savant.png",
+    "home_script": "experimental",
+    "type": "townsfolk"
+}

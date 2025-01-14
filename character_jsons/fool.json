@@ -1,0 +1,19 @@
+{
+    "id": "fool",
+    "name": "Fool",
+    "edition": "bmr",
+    "team": "townsfolk",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+        "No ability"
+    ],
+    "setup": false,
+    "ability": "The first time you die, you don't.",
+    "image": "/build/img/icons/townsfolk/fool.png",
+    "icon": "fool.png",
+    "home_script": "experimental",
+    "type": "townsfolk"
+}

@@ -1,0 +1,19 @@
+{
+    "id": "mathematician",
+    "name": "Mathematician",
+    "edition": "snv",
+    "team": "townsfolk",
+    "firstNight": 50,
+    "firstNightReminder": "Show the hand signal for the number (0, 1, 2, etc.) of players whose ability malfunctioned due to other abilities.",
+    "otherNight": 70,
+    "otherNightReminder": "Show the hand signal for the number (0, 1, 2, etc.) of players whose ability malfunctioned due to other abilities.",
+    "reminders": [
+        "Abnormal"
+    ],
+    "setup": false,
+    "ability": "Each night, you learn how many players' abilities worked abnormally (since dawn) due to another character's ability.",
+    "image": "/build/img/icons/townsfolk/mathematician.png",
+    "icon": "mathematician.png",
+    "home_script": "experimental",
+    "type": "townsfolk"
+}

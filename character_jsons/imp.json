@@ -1,0 +1,19 @@
+{
+    "id": "imp",
+    "name": "Imp",
+    "edition": "tb",
+    "team": "demon",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 24,
+    "otherNightReminder": "The Imp points to a player. That player dies. If the Imp chose themselves: Replace the character of 1 alive minion with a spare Imp token. Show the 'You are' card, then the Imp token.",
+    "reminders": [
+        "Dead"
+    ],
+    "setup": false,
+    "ability": "Each night*, choose a player: they die. If you kill yourself this way, a Minion becomes the Imp.",
+    "image": "/build/img/icons/demon/imp.png",
+    "icon": "imp.png",
+    "home_script": "experimental",
+    "type": "demon"
+}

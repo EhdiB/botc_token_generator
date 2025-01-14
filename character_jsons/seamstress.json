@@ -1,0 +1,19 @@
+{
+    "id": "seamstress",
+    "name": "Seamstress",
+    "edition": "snv",
+    "team": "townsfolk",
+    "firstNight": 42,
+    "firstNightReminder": "The Seamstress either shows a 'no' head signal, or points to two other players. If the Seamstress chose players , nod 'yes' or shake 'no' for whether they are of same alignment.",
+    "otherNight": 61,
+    "otherNightReminder": "If the Seamstress has not yet used their ability: the Seamstress either shows a 'no' head signal, or points to two other players. If the Seamstress chose players , nod 'yes' or shake 'no' for whether they are of same alignment.",
+    "reminders": [
+        "No ability"
+    ],
+    "setup": false,
+    "ability": "Once per game, at night, choose 2 players (not yourself): you learn if they are the same alignment.",
+    "image": "/build/img/icons/townsfolk/seamstress.png",
+    "icon": "seamstress.png",
+    "home_script": "experimental",
+    "type": "townsfolk"
+}

@@ -1,0 +1,17 @@
+{
+    "id": "gangster",
+    "name": "Gangster",
+    "edition": "",
+    "team": "traveller",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "ability": "Once per day, you may choose to kill an alive neighbour, if your other alive neighbour agrees.",
+    "image": "/build/img/icons/traveller/gangster.png",
+    "icon": "gangster.png",
+    "home_script": "experimental",
+    "type": "traveller"
+}

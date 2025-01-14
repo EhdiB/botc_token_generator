@@ -1,0 +1,17 @@
+{
+    "id": "recluse",
+    "name": "Recluse",
+    "edition": "tb",
+    "team": "outsider",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "ability": "You might register as evil & as a Minion or Demon, even if dead.",
+    "image": "/build/img/icons/outsider/recluse.png",
+    "icon": "recluse.png",
+    "home_script": "experimental",
+    "type": "outsider"
+}

@@ -1,0 +1,17 @@
+{
+    "id": "general",
+    "name": "General",
+    "edition": "",
+    "team": "townsfolk",
+    "firstNight": 48,
+    "firstNightReminder": "Show the General thumbs up for good winning, thumbs down for evil winning or thumb to the side for neither.",
+    "otherNight": 68,
+    "otherNightReminder": "Show the General thumbs up for good winning, thumbs down for evil winning or thumb to the side for neither.",
+    "reminders": [],
+    "setup": false,
+    "ability": "Each night, you learn which alignment the Storyteller believes is winning: good, evil, or neither.",
+    "image": "/build/img/icons/townsfolk/general.png",
+    "icon": "general.png",
+    "home_script": "experimental",
+    "type": "townsfolk"
+}

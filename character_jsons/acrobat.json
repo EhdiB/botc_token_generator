@@ -1,0 +1,19 @@
+{
+    "id": "acrobat",
+    "name": "Acrobat",
+    "edition": "",
+    "team": "outsider",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 39,
+    "otherNightReminder": "If a good living neighbour is drunk or poisoned, the Acrobat player dies.",
+    "reminders": [
+        "Dead"
+    ],
+    "setup": false,
+    "ability": "Each night*, if either good living neighbour is drunk or poisoned, you die.",
+    "image": "/build/img/icons/outsider/acrobat.png",
+    "icon": "acrobat.png",
+    "home_script": "experimental",
+    "type": "outsider"
+}

@@ -1,0 +1,22 @@
+{
+    "id": "widow",
+    "name": "Widow",
+    "edition": "",
+    "team": "minion",
+    "firstNight": 18,
+    "firstNightReminder": "Show the Grimoire to the Widow for as long as they need. The Widow points to a player. That player is poisoned. Wake a good player. Show the 'These characters are in play' card, then the Widow character token.",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+        "Poisoned"
+    ],
+    "remindersGlobal": [
+        "Knows"
+    ],
+    "setup": false,
+    "ability": "On your 1st night, look at the Grimoire and choose a player: they are poisoned. 1 good player knows a Widow is in play.",
+    "image": "/build/img/icons/minion/widow.png",
+    "icon": "widow.png",
+    "home_script": "experimental",
+    "type": "minion"
+}

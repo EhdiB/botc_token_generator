@@ -1,0 +1,17 @@
+{
+    "id": "mastermind",
+    "name": "Mastermind",
+    "edition": "bmr",
+    "team": "minion",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "ability": "If the Demon dies by execution (ending the game), play for 1 more day. If a player is then executed, their team loses.",
+    "image": "/build/img/icons/minion/mastermind.png",
+    "icon": "mastermind.png",
+    "home_script": "experimental",
+    "type": "minion"
+}

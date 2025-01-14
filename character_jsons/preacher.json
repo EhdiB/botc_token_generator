@@ -1,0 +1,19 @@
+{
+    "id": "preacher",
+    "name": "Preacher",
+    "edition": "",
+    "team": "townsfolk",
+    "firstNight": 14,
+    "firstNightReminder": "The Preacher chooses a player. If a Minion is chosen, wake the Minion and show the 'This character selected you' card and then the Preacher token.",
+    "otherNight": 7,
+    "otherNightReminder": "The Preacher chooses a player. If a Minion is chosen, wake the Minion and show the 'This character selected you' card and then the Preacher token.",
+    "reminders": [
+        "At a sermon"
+    ],
+    "setup": false,
+    "ability": "Each night, choose a player: a Minion, if chosen, learns this. All chosen Minions have no ability.",
+    "image": "/build/img/icons/townsfolk/preacher.png",
+    "icon": "preacher.png",
+    "home_script": "experimental",
+    "type": "townsfolk"
+}

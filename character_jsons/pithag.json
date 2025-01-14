@@ -1,0 +1,17 @@
+{
+    "id": "pithag",
+    "name": "Pit-Hag",
+    "edition": "snv",
+    "team": "minion",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 17,
+    "otherNightReminder": "The Pit-Hag points to a player and a character on the sheet. If this character is not in play, wake that player and show them the 'You are' card and the relevant character token. If the character is in play, nothing happens.",
+    "reminders": [],
+    "setup": false,
+    "ability": "Each night*, choose a player & a character they become (if not-in-play). If a Demon is made, deaths tonight are arbitrary.",
+    "image": "/build/img/icons/minion/pithag.png",
+    "icon": "pithag.png",
+    "home_script": "experimental",
+    "type": "minion"
+}

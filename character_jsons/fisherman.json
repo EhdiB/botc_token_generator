@@ -1,0 +1,19 @@
+{
+    "id": "fisherman",
+    "name": "Fisherman",
+    "edition": "",
+    "team": "townsfolk",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+        "No ability"
+    ],
+    "setup": false,
+    "ability": "Once per game, during the day, visit the Storyteller for some advice to help you win.",
+    "image": "/build/img/icons/townsfolk/fisherman.png",
+    "icon": "fisherman.png",
+    "home_script": "experimental",
+    "type": "townsfolk"
+}

@@ -1,0 +1,17 @@
+{
+    "id": "riot",
+    "name": "Riot",
+    "edition": "",
+    "team": "demon",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": true,
+    "ability": "Nominees die, but may nominate again immediately (on day 3, they must). After day 3, evil wins. [All Minions are Riot]",
+    "image": "/build/img/icons/demon/riot.png",
+    "icon": "riot.png",
+    "home_script": "experimental",
+    "type": "demon"
+}

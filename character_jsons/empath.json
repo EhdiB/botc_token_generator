@@ -1,0 +1,17 @@
+{
+    "id": "empath",
+    "name": "Empath",
+    "edition": "tb",
+    "team": "townsfolk",
+    "firstNight": 36,
+    "firstNightReminder": "Show the finger signal (0, 1, 2) for the number of evil alive neighbours of the Empath.",
+    "otherNight": 53,
+    "otherNightReminder": "Show the finger signal (0, 1, 2) for the number of evil neighbours.",
+    "reminders": [],
+    "setup": false,
+    "ability": "Each night, you learn how many of your 2 alive neighbours are evil.",
+    "image": "/build/img/icons/townsfolk/empath.png",
+    "icon": "empath.png",
+    "home_script": "experimental",
+    "type": "townsfolk"
+}

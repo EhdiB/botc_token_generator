@@ -1,0 +1,19 @@
+{
+    "id": "poisoner",
+    "name": "Poisoner",
+    "edition": "tb",
+    "team": "minion",
+    "firstNight": 17,
+    "firstNightReminder": "The Poisoner points to a player. That player is poisoned.",
+    "otherNight": 8,
+    "otherNightReminder": "The previously poisoned player is no longer poisoned. The Poisoner points to a player. That player is poisoned.",
+    "reminders": [
+        "Poisoned"
+    ],
+    "setup": false,
+    "ability": "Each night, choose a player: they are poisoned tonight and tomorrow day.",
+    "image": "/build/img/icons/minion/poisoner.png",
+    "icon": "poisoner.png",
+    "home_script": "experimental",
+    "type": "minion"
+}

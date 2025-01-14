@@ -1,0 +1,20 @@
+{
+    "id": "professor",
+    "name": "Professor",
+    "edition": "bmr",
+    "team": "townsfolk",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 45,
+    "otherNightReminder": "If the Professor has not used their ability: The Professor either shakes their head no, or points to a player. If that player is a Townsfolk, they are now alive.",
+    "reminders": [
+        "Alive",
+        "No ability"
+    ],
+    "setup": false,
+    "ability": "Once per game, at night*, choose a dead player: if they are a Townsfolk, they are resurrected.",
+    "image": "/build/img/icons/townsfolk/professor.png",
+    "icon": "professor.png",
+    "home_script": "experimental",
+    "type": "townsfolk"
+}

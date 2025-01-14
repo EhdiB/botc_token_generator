@@ -1,0 +1,19 @@
+{
+    "id": "grandmother",
+    "name": "Grandmother",
+    "edition": "bmr",
+    "team": "townsfolk",
+    "firstNight": 39,
+    "firstNightReminder": "Show the marked character token. Point to the marked player.",
+    "otherNight": 50,
+    "otherNightReminder": "If the Grandmother's grandchild was killed by the Demon tonight: The Grandmother dies.",
+    "reminders": [
+        "Grandchild"
+    ],
+    "setup": false,
+    "ability": "You start knowing a good player & their character. If the Demon kills them, you die too.",
+    "image": "/build/img/icons/townsfolk/grandmother.png",
+    "icon": "grandmother.png",
+    "home_script": "experimental",
+    "type": "townsfolk"
+}

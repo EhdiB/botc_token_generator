@@ -1,0 +1,17 @@
+{
+    "id": "atheist",
+    "name": "Atheist",
+    "edition": "",
+    "team": "townsfolk",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": true,
+    "ability": "The Storyteller can break the game rules & if executed, good wins, even if you are dead. [No evil characters]",
+    "image": "/build/img/icons/townsfolk/atheist.png",
+    "icon": "atheist.png",
+    "home_script": "experimental",
+    "type": "townsfolk"
+}

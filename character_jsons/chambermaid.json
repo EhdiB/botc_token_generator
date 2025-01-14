@@ -1,0 +1,17 @@
+{
+    "id": "chambermaid",
+    "name": "Chambermaid",
+    "edition": "bmr",
+    "team": "townsfolk",
+    "firstNight": 49,
+    "firstNightReminder": "The Chambermaid points to two players. Show the number signal (0, 1, 2, \u2026) for how many of those players wake tonight for their ability.",
+    "otherNight": 69,
+    "otherNightReminder": "The Chambermaid points to two players. Show the number signal (0, 1, 2, \u2026) for how many of those players wake tonight for their ability.",
+    "reminders": [],
+    "setup": false,
+    "ability": "Each night, choose 2 alive players (not yourself): you learn how many woke tonight due to their ability.",
+    "image": "/build/img/icons/townsfolk/chambermaid.png",
+    "icon": "chambermaid.png",
+    "home_script": "experimental",
+    "type": "townsfolk"
+}

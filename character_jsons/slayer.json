@@ -1,0 +1,19 @@
+{
+    "id": "slayer",
+    "name": "Slayer",
+    "edition": "tb",
+    "team": "townsfolk",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+        "No ability"
+    ],
+    "setup": false,
+    "ability": "Once per game, during the day, publicly choose a player: if they are the Demon, they die.",
+    "image": "/build/img/icons/townsfolk/slayer.png",
+    "icon": "slayer.png",
+    "home_script": "experimental",
+    "type": "townsfolk"
+}

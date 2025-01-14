@@ -1,0 +1,19 @@
+{
+    "id": "minstrel",
+    "name": "Minstrel",
+    "edition": "bmr",
+    "team": "townsfolk",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+        "Everyone drunk"
+    ],
+    "setup": false,
+    "ability": "When a Minion dies by execution, all other players (except Travellers) are drunk until dusk tomorrow.",
+    "image": "/build/img/icons/townsfolk/minstrel.png",
+    "icon": "minstrel.png",
+    "home_script": "experimental",
+    "type": "townsfolk"
+}

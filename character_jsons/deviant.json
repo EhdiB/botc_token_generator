@@ -1,0 +1,17 @@
+{
+    "id": "deviant",
+    "name": "Deviant",
+    "edition": "snv",
+    "team": "traveller",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "ability": "If you were funny today, you cannot die by exile.",
+    "image": "/build/img/icons/traveller/deviant.png",
+    "icon": "deviant.png",
+    "home_script": "experimental",
+    "type": "traveller"
+}

@@ -1,0 +1,19 @@
+{
+    "id": "barber",
+    "name": "Barber",
+    "edition": "snv",
+    "team": "outsider",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 40,
+    "otherNightReminder": "If the Barber died today: Wake the Demon. Show the 'This character selected you' card, then Barber token. The Demon either shows a 'no' head signal, or points to 2 players. If they chose players: Swap the character tokens. Wake each player. Show 'You are', then their new character token.",
+    "reminders": [
+        "Haircuts tonight"
+    ],
+    "setup": false,
+    "ability": "If you died today or tonight, the Demon may choose 2 players (not another Demon) to swap characters.",
+    "image": "/build/img/icons/outsider/barber.png",
+    "icon": "barber.png",
+    "home_script": "experimental",
+    "type": "outsider"
+}

@@ -1,0 +1,19 @@
+{
+    "id": "noble",
+    "name": "Noble",
+    "edition": "",
+    "team": "townsfolk",
+    "firstNight": 43,
+    "firstNightReminder": "Point to 3 players including one evil player, in no particular order.",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+        "Seen"
+    ],
+    "setup": false,
+    "ability": "You start knowing 3 players, 1 and only 1 of which is evil.",
+    "image": "/build/img/icons/townsfolk/noble.png",
+    "icon": "noble.png",
+    "home_script": "experimental",
+    "type": "townsfolk"
+}

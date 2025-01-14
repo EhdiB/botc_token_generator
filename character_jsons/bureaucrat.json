@@ -1,0 +1,19 @@
+{
+    "id": "bureaucrat",
+    "name": "Bureaucrat",
+    "edition": "tb",
+    "team": "traveller",
+    "firstNight": 1,
+    "firstNightReminder": "The Bureaucrat points to a player. Put the Bureaucrat's '3 votes' reminder by the chosen player's character token.",
+    "otherNight": 1,
+    "otherNightReminder": "The Bureaucrat points to a player. Put the Bureaucrat's '3 votes' reminder by the chosen player's character token.",
+    "reminders": [
+        "3 votes"
+    ],
+    "setup": false,
+    "ability": "Each night, choose a player (not yourself): their vote counts as 3 votes tomorrow.",
+    "image": "/build/img/icons/traveller/bureaucrat.png",
+    "icon": "bureaucrat.png",
+    "home_script": "experimental",
+    "type": "traveller"
+}

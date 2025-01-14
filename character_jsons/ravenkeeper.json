@@ -1,0 +1,17 @@
+{
+    "id": "ravenkeeper",
+    "name": "Ravenkeeper",
+    "edition": "tb",
+    "team": "townsfolk",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 42,
+    "otherNightReminder": "If the Ravenkeeper died tonight: The Ravenkeeper points to a player. Show that player's character token.",
+    "reminders": [],
+    "setup": false,
+    "ability": "If you die at night, you are woken to choose a player: you learn their character.",
+    "image": "/build/img/icons/townsfolk/ravenkeeper.png",
+    "icon": "ravenkeeper.png",
+    "home_script": "experimental",
+    "type": "townsfolk"
+}

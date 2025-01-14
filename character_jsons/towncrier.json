@@ -1,0 +1,20 @@
+{
+    "id": "towncrier",
+    "name": "Town Crier",
+    "edition": "snv",
+    "team": "townsfolk",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 59,
+    "otherNightReminder": "Nod 'yes' or shake head 'no' for whether a Minion nominated today. Place the 'Minion not nominated' marker (remove 'Minion nominated', if any).",
+    "reminders": [
+        "Minions not nominated",
+        "Minion nominated"
+    ],
+    "setup": false,
+    "ability": "Each night*, you learn if a Minion nominated today.",
+    "image": "/build/img/icons/townsfolk/towncrier.png",
+    "icon": "towncrier.png",
+    "home_script": "experimental",
+    "type": "townsfolk"
+}

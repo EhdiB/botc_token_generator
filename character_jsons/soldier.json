@@ -1,0 +1,17 @@
+{
+    "id": "soldier",
+    "name": "Soldier",
+    "edition": "tb",
+    "team": "townsfolk",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "ability": "You are safe from the Demon.",
+    "image": "/build/img/icons/townsfolk/soldier.png",
+    "icon": "soldier.png",
+    "home_script": "experimental",
+    "type": "townsfolk"
+}

@@ -1,0 +1,17 @@
+{
+    "id": "choirboy",
+    "name": "Choirboy",
+    "edition": "",
+    "team": "townsfolk",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 44,
+    "otherNightReminder": "If the King was killed by the Demon, wake the Choirboy and point to the Demon player.",
+    "reminders": [],
+    "setup": true,
+    "ability": "If the Demon kills the King, you learn which player is the Demon. [+ the King]",
+    "image": "/build/img/icons/townsfolk/choirboy.png",
+    "icon": "choirboy.png",
+    "home_script": "experimental",
+    "type": "townsfolk"
+}

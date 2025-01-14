@@ -1,0 +1,19 @@
+{
+    "id": "monk",
+    "name": "Monk",
+    "edition": "tb",
+    "team": "townsfolk",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 13,
+    "otherNightReminder": "The previously protected player is no longer protected. The Monk points to a player not themself. Mark that player 'Protected'.",
+    "reminders": [
+        "Protected"
+    ],
+    "setup": false,
+    "ability": "Each night*, choose a player (not yourself): they are safe from the Demon tonight.",
+    "image": "/build/img/icons/townsfolk/monk.png",
+    "icon": "monk.png",
+    "home_script": "experimental",
+    "type": "townsfolk"
+}

@@ -1,0 +1,20 @@
+{
+    "id": "innkeeper",
+    "name": "Innkeeper",
+    "edition": "bmr",
+    "team": "townsfolk",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 9,
+    "otherNightReminder": "The previously protected and drunk players lose those markers. The Innkeeper points to two players. Those players are protected. One is drunk.",
+    "reminders": [
+        "Protected",
+        "Drunk"
+    ],
+    "setup": false,
+    "ability": "Each night*, choose 2 players: they can't die tonight, but 1 is drunk until dusk.",
+    "image": "/build/img/icons/townsfolk/innkeeper.png",
+    "icon": "innkeeper.png",
+    "home_script": "experimental",
+    "type": "townsfolk"
+}

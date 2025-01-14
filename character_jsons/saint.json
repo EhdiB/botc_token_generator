@@ -1,0 +1,17 @@
+{
+    "id": "saint",
+    "name": "Saint",
+    "edition": "tb",
+    "team": "outsider",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "ability": "If you die by execution, your team loses.",
+    "image": "/build/img/icons/outsider/saint.png",
+    "icon": "saint.png",
+    "home_script": "experimental",
+    "type": "outsider"
+}

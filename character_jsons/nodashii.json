@@ -1,0 +1,20 @@
+{
+    "id": "nodashii",
+    "name": "No Dashii",
+    "edition": "snv",
+    "team": "demon",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 30,
+    "otherNightReminder": "The No Dashii points to a player. That player dies.",
+    "reminders": [
+        "Dead",
+        "Poisoned"
+    ],
+    "setup": false,
+    "ability": "Each night*, choose a player: they die. Your 2 Townsfolk neighbours are poisoned.",
+    "image": "/build/img/icons/demon/nodashii.png",
+    "icon": "nodashii.png",
+    "home_script": "experimental",
+    "type": "demon"
+}

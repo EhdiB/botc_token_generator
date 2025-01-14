@@ -1,0 +1,20 @@
+{
+    "id": "puzzlemaster",
+    "name": "Puzzlemaster",
+    "edition": "",
+    "team": "outsider",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+        "Drunk",
+        "Guess used"
+    ],
+    "setup": false,
+    "ability": "1 player is drunk, even if you die. If you guess (once) who it is, learn the Demon player, but guess wrong & get false info.",
+    "image": "/build/img/icons/outsider/puzzlemaster.png",
+    "icon": "puzzlemaster.png",
+    "home_script": "experimental",
+    "type": "outsider"
+}

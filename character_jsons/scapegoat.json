@@ -1,0 +1,17 @@
+{
+    "id": "scapegoat",
+    "name": "Scapegoat",
+    "edition": "tb",
+    "team": "traveller",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "ability": "If a player of your alignment is executed, you might be executed instead.",
+    "image": "/build/img/icons/traveller/scapegoat.png",
+    "icon": "scapegoat.png",
+    "home_script": "experimental",
+    "type": "traveller"
+}

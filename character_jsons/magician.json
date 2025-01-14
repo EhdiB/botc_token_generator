@@ -1,0 +1,17 @@
+{
+    "id": "magician",
+    "name": "Magician",
+    "edition": "",
+    "team": "townsfolk",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "ability": "The Demon thinks you are a Minion. Minions think you are a Demon.",
+    "image": "/build/img/icons/townsfolk/magician.png",
+    "icon": "magician.png",
+    "home_script": "experimental",
+    "type": "townsfolk"
+}

@@ -1,0 +1,19 @@
+{
+    "id": "butler",
+    "name": "Butler",
+    "edition": "tb",
+    "team": "outsider",
+    "firstNight": 38,
+    "firstNightReminder": "The Butler points to a player. Mark that player as 'Master'.",
+    "otherNight": 55,
+    "otherNightReminder": "The Butler points to a player. Mark that player as 'Master'.",
+    "reminders": [
+        "Master"
+    ],
+    "setup": false,
+    "ability": "Each night, choose a player (not yourself): tomorrow, you may only vote if they are voting too.",
+    "image": "/build/img/icons/outsider/butler.png",
+    "icon": "butler.png",
+    "home_script": "experimental",
+    "type": "outsider"
+}

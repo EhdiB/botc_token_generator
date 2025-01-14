@@ -1,0 +1,20 @@
+{
+    "id": "godfather",
+    "name": "Godfather",
+    "edition": "bmr",
+    "team": "minion",
+    "firstNight": 21,
+    "firstNightReminder": "Show each of the Outsider tokens in play.",
+    "otherNight": 38,
+    "otherNightReminder": "If an Outsider died today: The Godfather points to a player. That player dies.",
+    "reminders": [
+        "Died today",
+        "Dead"
+    ],
+    "setup": true,
+    "ability": "You start knowing which Outsiders are in play. If 1 died today, choose a player tonight: they die. [\u22121 or +1 Outsider]",
+    "image": "/build/img/icons/minion/godfather.png",
+    "icon": "godfather.png",
+    "home_script": "experimental",
+    "type": "minion"
+}

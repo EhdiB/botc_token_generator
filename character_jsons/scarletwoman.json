@@ -1,0 +1,19 @@
+{
+    "id": "scarletwoman",
+    "name": "Scarlet Woman",
+    "edition": "tb",
+    "team": "minion",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 20,
+    "otherNightReminder": "If the Scarlet Woman became the Demon today: Show the 'You are' card, then the demon token.",
+    "reminders": [
+        "Demon"
+    ],
+    "setup": false,
+    "ability": "If there are 5 or more players alive & the Demon dies, you become the Demon. (Travellers don't count)",
+    "image": "/build/img/icons/minion/scarletwoman.png",
+    "icon": "scarletwoman.png",
+    "home_script": "experimental",
+    "type": "minion"
+}

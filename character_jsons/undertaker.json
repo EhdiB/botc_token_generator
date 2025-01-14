@@ -1,0 +1,19 @@
+{
+    "id": "undertaker",
+    "name": "Undertaker",
+    "edition": "tb",
+    "team": "townsfolk",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 56,
+    "otherNightReminder": "If a player was executed today: Show that player's character token.",
+    "reminders": [
+        "Executed"
+    ],
+    "setup": false,
+    "ability": "Each night*, you learn which character died by execution today.",
+    "image": "/build/img/icons/townsfolk/undertaker.png",
+    "icon": "undertaker.png",
+    "home_script": "experimental",
+    "type": "townsfolk"
+}
