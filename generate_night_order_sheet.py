@@ -232,22 +232,23 @@ def list_files_in_directory(directory):
         return []
 
 # Specify the directory you want to list files from
-script_names = list_files_in_directory('/Users/ehdiburcombe/Documents/BOTC_Tokens_Ehdi/scripts_and_night_order_sheets/scripts')
+script_names = list_files_in_directory('scripts_and_night_order_sheets/scripts')
 
 
 for script_name in script_names:
+    print('processing: ', script_name)
     input_script_json=f'scripts_and_night_order_sheets/scripts/{script_name}.json'
     characters_in_script = read_json_values(input_script_json)
 
     additionnal_reminders = ['DAWN','DUSK','DEMON','MINION']
     characters_in_script_with_reminders = characters_in_script.extend(additionnal_reminders)
 
-    with open('/Users/ehdiburcombe/Documents/BOTC_Tokens_Ehdi/night-order.json', 'r') as file:
+    with open('night-order.json', 'r') as file:
             data = json.load(file)
     first_night_order = data['firstNight']
     other_night_order = data['otherNight']
 
-    with open('/Users/ehdiburcombe/Documents/BOTC_Tokens_Ehdi/characters.json', 'r') as file:
+    with open('characters.json', 'r') as file:
             characters_json = json.load(file)
 
     characters_in_script_clean = replace_items_with_names(characters_in_script, characters_json)
