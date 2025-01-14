@@ -90,7 +90,7 @@ python programtorun.py
 ```
 
 
-### 4. Usage
+## Usage
 Provide examples or instructions for how to use the project. Include code snippets if applicable:
 
 ```bash
@@ -98,7 +98,7 @@ python main.py --example-flag
 ```
 
 
-### 5. Contributing
+## Contributing
 Contributions are welcome! 
 
 Follow these steps to contribute:
@@ -109,7 +109,7 @@ Commit your changes: git commit -m "Add some feature".
 Push to the branch: git push origin feature-name.
 Open a pull request.
 
-### 6. License
+## License
 This project is licensed under the MIT License. See the LICENSE file for more details.
 
 
