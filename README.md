@@ -1,9 +1,14 @@
-# Project Name
+# Blood on the Clocktower - Token Maker
 
-A brief description of your project and what it does. Highlight its purpose, key features, or the problem it solves.
+This project allows to create tokens to print and play Blood on the Clocktower. 
+
+Token Examples:
+![tokens_examples](tokens_examples.png "Tokens Examples")
+
+Reminder Examples:
+![reminders_examples](reminders_examples.png "Reminders Examples")
 
 ---
-
 ## Table of Contents
 
 - [Features](#features)
@@ -17,11 +22,12 @@ A brief description of your project and what it does. Highlight its purpose, key
 
 ## Features
 
-To run a specific function, run: 
+To run a specific function, run the following (replacing PythonFileName with any of the feature functions): 
 ```bash
 python {PythonFileName}.py
 ```
-replacing PythonFileName with one of the following.
+
+If running for the first time, it is recommended to run them using the following order:
 
 - Feature 1: `get_assets_from_wiki.py`
     - This program scrapes the assets from the official wiki. 
@@ -54,12 +60,12 @@ Follow these steps to get the project running on your local machine:
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/yourusername/yourproject.git
-cd yourproject
+git clone https://github.com/EhdiB/botc_token_generator.git
+cd botc_token_generator
 ```
 
 ### 2. Set Up the Environment
-Option A: Using setup.sh Script (Recommended)
+#### Option A: Using setup.sh Script (Recommended)
 We have a simple setup.sh script that automates setting up the virtual environment and installing dependencies. To use it:
 
 Make sure the script is executable:
@@ -79,20 +85,19 @@ The script will:
 - Install dependencies from requirements.txt.
 
 
-Option B: Manually Using virtualenv
+#### Option B: Manually Using virtualenv
 If you prefer to set up the environment manually, you can follow these steps:
 
-Create a virtual environment:
-
+Create a virtual environment (you can replace botc_tokens_env by a preferred enviroment name):
 ```bash
-python -m venv myenv
+python -m venv botc_tokens_env
 ```
+
 Activate the virtual environment:
+- Linux/Mac: source myenv/bin/activate
+- Windows: .\myenv\Scripts\activate
 
-Linux/Mac: source myenv/bin/activate
-Windows: .\myenv\Scripts\activate
 Install the dependencies:
-
 ```bash
 pip install -r requirements.txt
 ```
@@ -127,7 +132,6 @@ Follow these steps to contribute:
 - [Blood on the Clocktower](https://bloodontheclocktower.com) is a trademark of Steven Medway and The Pandemonium Institute
 - Scripts data are obtained from [BotC Scripts database](https://botc-scripts.azurewebsites.net)
 - Detailed information about each official character is obtained from [Blood on the Clocktower Wiki](https://wiki.bloodontheclocktower.com).
-- Icons were obtained from [Pocket Grimoire](https://www.pocketgrimoire.co.uk/) (source: [Font Awesome](https://fontawesome.com/v5/search))
 - Some images were collected from [Clocktower.online](https://www.clocktower.online/)
 - Information about night order, reminders and Jinxes was obtained from [Pocket Grimoire](https://www.pocketgrimoire.co.uk/)
 
