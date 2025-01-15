@@ -5,8 +5,8 @@ from reportlab.lib.units import inch
 from PIL import Image
 
 IMG_TOKEN_PATH = 'img/token'
-output_tokens_pdf_path = 'tokens_printable.pdf'
-output_reminders_pdf_path = 'reminders_printable.pdf'
+output_tokens_pdf_path = 'output_prints/tokens_printable.pdf'
+output_reminders_pdf_path = 'output_prints/reminders_printable.pdf'
 
 generated_tokens_folder_path = os.path.join(IMG_TOKEN_PATH, 'generated_tokens')
 generated_reminders_folder_path = os.path.join(IMG_TOKEN_PATH, 'generated_reminders')

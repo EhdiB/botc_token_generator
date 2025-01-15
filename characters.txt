@@ -14,6 +14,7 @@ Barista
 Baron
 Beggar
 Bishop
+Boffin
 Bone Collector
 Boomdandy
 Bounty Hunter
@@ -75,6 +76,7 @@ Leviathan
 Librarian
 Lil' Monsta
 Lleech
+Lord of Typhon
 Lunatic
 Lycanthrope
 Magician

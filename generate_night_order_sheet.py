@@ -289,7 +289,7 @@ for script_name in script_names:
     convert_pdf_to_image(first_night_file_name, first_night_image_file_name)
     convert_pdf_to_image(other_night_filename, other_night_image_file_name)
 
-    output = f'scripts_and_night_order_sheets/night_order_sheet/print/{script_name}_merged.jpg'
+    output = f'output_prints/night_order_sheets/{script_name}_merged.jpg'
     # output = 'merged.jpg'
 
     # Example usage

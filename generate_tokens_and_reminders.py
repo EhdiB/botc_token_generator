@@ -18,7 +18,7 @@ GENERATED_REMINDERS_PATH = os.path.join(IMG_TOKEN_PATH, 'generated_reminders')
 CURVED_CHARACTER_NAMES_PATH = os.path.join(IMG_TOKEN_PATH, 'curved_character_names')
 CURVED_REMINDERS_PATH = os.path.join(IMG_TOKEN_PATH, 'curved_reminders')
 CHARACTERS_JSON_PATH =  'characters.json'
-TOKEN_BG_PATH = 'token_bg'
+TOKEN_BG_PATH = 'img/token_bg'
 
 # Ensure all necessary directories exist
 for path in [SCRAPED_IMAGES_PATH, GENERATED_TOKENS_PATH, GENERATED_REMINDERS_PATH, CURVED_CHARACTER_NAMES_PATH, CURVED_REMINDERS_PATH]:
@@ -138,7 +138,7 @@ def generate_overlay_array(character_data, folder_path, is_reminder=False, remin
     """
     Generates an array of image paths for overlay, based on character data and conditions.
     """
-    overlay_array = ['token_bg/clockface-2-very_white.png'] if is_reminder else []
+    overlay_array = ['img/token_bg/clockface-2-very_white.png'] if is_reminder else []
     curved_text_subpath = CURVED_REMINDERS_PATH if is_reminder else CURVED_CHARACTER_NAMES_PATH
     curved_text_filename = f"{character_data['id']}_{reminder}.png" if is_reminder else f"{character_data['id']}.png"
     curved_text_path = os.path.join(curved_text_subpath, curved_text_filename)
@@ -146,13 +146,13 @@ def generate_overlay_array(character_data, folder_path, is_reminder=False, remin
     if not is_reminder:
         reminder_count = len(character_data['reminders'])
         if 1 <= reminder_count <= 6:  # Assuming overlays for 1 to 6 reminders exist
-            overlay_array.append(f'leaves/top-{reminder_count}.png')
+            overlay_array.append(f'img/token/leaves/top-{reminder_count}.png')
         if character_data['firstNight'] != 0:
-            overlay_array.append('leaves/left-1.png')
+            overlay_array.append('img/token/leaves/left-1.png')
         if character_data['otherNight'] != 0:
-            overlay_array.append('leaves/right-1.png')
+            overlay_array.append('img/token/leaves/right-1.png')
         if character_data.get('setup', False):
-            overlay_array.append('leaves/setup.png')
+            overlay_array.append('img/token/leaves/setup.png')
 
     overlay_array.append(os.path.join(folder_path, f"{character_data['id']}.png"))
     overlay_array.append(curved_text_path)

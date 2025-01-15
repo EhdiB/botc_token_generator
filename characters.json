@@ -175,7 +175,7 @@
         "firstNight": 44,
         "firstNightReminder": "Choose a character type. Point to a player whose character is of that type. Place the Balloonist's Seen reminder next to that character.",
         "otherNight": 63,
-        "otherNightReminder": "Choose a character type that does not yet have a Seen reminder next to a character of that type. Point to a player whose character is of that type, if there are any. Place the Balloonist's Seen reminder next to that character.",
+        "otherNightReminder": "Choose a character type that does not yet have a Seen reminder next to a character of that type. Point to a player whose character is of that type, if there are any.",
         "reminders": [
             "Seen Townsfolk",
             "Seen Outsider",
@@ -214,7 +214,7 @@
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 40,
-        "otherNightReminder": "If the Barber died today: Wake the Demon. Show the 'This character selected you' card, then Barber token. The Demon either shows a 'no' head signal, or points to 2 players. If they chose players: Swap the character tokens. Wake each player. Show 'You are', then their new character token.",
+        "otherNightReminder": "If the Barber died today: Wake the Demon. Show the 'This character selected you' card, then Barber token. If they chose players: Swap the character tokens and wake + inform",
         "reminders": [
             "Haircuts tonight"
         ],
@@ -298,6 +298,20 @@
         "icon": "bishop.png",
         "home_script": "experimental",
         "type": "traveller"
+    },
+    {
+        "id": "boffin",
+        "name": "Boffin",
+        "edition": "",
+        "team": "minion",
+        "firstNight": 1,
+        "firstNightReminder": "Wake the Boffin and how them the token of the ability the Demon has. Put the Boffin back to sleep. Wake the Demon, show the Boffin token, then show the token of the good ability the Demon has.",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "setup": false,
+        "ability": "The Demon (even if drunk or poisoned) has a not-in-play good character’s ability. You both know which.",
+        "image": "/build/img/icons/minion/boffin.webp"
     },
     {
         "id": "bonecollector",
@@ -436,9 +450,9 @@
         "edition": "snv",
         "team": "minion",
         "firstNight": 25,
-        "firstNightReminder": "The Cerenovus points to a player, then to a character on their sheet. Wake that player. Show the 'This character selected you' card, then the Cerenovus token. Show the selected character token. If the player is not mad about being that character tomorrow, they can be executed.",
+        "firstNightReminder": "The Cerenovus points to a player and character. Wake that player. Show the 'This character selected you' card, then Cerenovus. selected character token.",
         "otherNight": 16,
-        "otherNightReminder": "The Cerenovus points to a player, then to a character on their sheet. Wake that player. Show the 'This character selected you' card, then the Cerenovus token. Show the selected character token. If the player is not mad about being that character tomorrow, they can be executed.",
+        "otherNightReminder": "The Cerenovus points to a player and character. Wake that player. Show the 'This character selected you' card, then Cerenovus, then selected character token.",
         "reminders": [
             "Mad"
         ],
@@ -736,7 +750,7 @@
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 29,
-        "otherNightReminder": "The Fang Gu points to a player. That player dies. Or, if that player was an Outsider and there are no other Fang Gu in play: The Fang Gu dies instead of the chosen player. The chosen player is now an evil Fang Gu. Wake the new Fang Gu. Show the 'You are' card, then the Fang Gu token. Show the 'You are' card, then the thumb-down 'evil' hand sign.",
+        "otherNightReminder": "The Fang Gu points to a player. That player dies. Or, if that player was an Outsider and there are no other Fang Gu in play: The Fang Gu dies instead of the chosen player. The chosen player is now an evil Fang Gu.",
         "reminders": [
             "Dead",
             "Once"
@@ -1085,9 +1099,9 @@
         "edition": "",
         "team": "minion",
         "firstNight": 24,
-        "firstNightReminder": "Wake the Harpy; they point at one player, then another. Wake the 1st player the Harpy pointed to, show them the 'This character has selected you' card, show them the Harpy token, then point at the 2nd player the Harpy pointed to.",
+        "firstNightReminder": "Wake the Harpy; they point at one player, then another. Wake the 1st player the Harpy pointed to, show them the 'Harpy token and the player they are mad about",
         "otherNight": 14,
-        "otherNightReminder": "Wake the Harpy; they point at one player, then another. Wake the 1st player the Harpy pointed to, show them the 'This character has selected you' card, show them the Harpy token, then point at the 2nd player the Harpy pointed to.",
+        "otherNightReminder": "Wake the Harpy; they point at one player, then another.Wake the 1st player the Harpy pointed to, show them the 'Harpy token and the player they are mad about",
         "reminders": [
             "Mad",
             "2nd"
@@ -1453,14 +1467,30 @@
         "type": "demon"
     },
     {
+        "id": "lordoftyphon",
+        "name": "Lord of Typhon",
+        "edition": "",
+        "team": "demon",
+        "firstNight": 1,
+        "firstNightReminder": "Wake the players on either side of the Demon. Show them the 'You Are' card, the token of the Minion they now are, and a thumbs down to indicate they are evil.",
+        "otherNight": 31,
+        "otherNightReminder": "The Lord of Typhon points to a player. That player dies.",
+        "reminders": [
+            "Dead"
+        ],
+        "setup": true,
+        "ability": "Each night*, choose a player: they die. [Evil characters are in a line. You are in the middle. +1 Minion. -? To +? Outsiders]",
+        "image": "/build/img/icons/demon/lordoftyphon.webp"
+    },
+    {
         "id": "lunatic",
         "name": "Lunatic",
         "edition": "bmr",
         "team": "outsider",
         "firstNight": 7,
-        "firstNightReminder": "If 7 or more players: Show the Lunatic a number of arbitrary 'Minions', players equal to the number of Minions in play. Show 3 character tokens of arbitrary good characters. If the token received by the Lunatic is a Demon that would wake tonight: Allow the Lunatic to do the Demon actions. Place their 'attack' markers. Wake the Demon. Show the Demon's real character token. Show them the Lunatic player. If the Lunatic attacked players: Show the real demon each marked player. Remove any Lunatic 'attack' markers.",
+        "firstNightReminder": "If 7 or more players: Show the Lunatic his arbitrary 'Minions'. Show 3 arbitrary Bluffs. Allow the Lunatic to do the Demon actions. Wake the Demon. Show Lunatic player to Demon. Show the demon the lunatic attacked players",
         "otherNight": 21,
-        "otherNightReminder": "Allow the Lunatic to do the actions of the Demon. Place their 'attack' markers. If the Lunatic selected players: Wake the Demon. Show the 'attack' marker, then point to each marked player. Remove any Lunatic 'attack' markers.",
+        "otherNightReminder": "Allow the Lunatic to do the actions of the Demon. Wake the Demon and show",
         "reminders": [
             "Attack 1",
             "Attack 2",
@@ -1854,9 +1884,9 @@
         "edition": "snv",
         "team": "townsfolk",
         "firstNight": 2,
-        "firstNightReminder": "The Philosopher either shows a 'no' head signal, or points to a good character on their sheet. If they chose a character: Swap the out-of-play character token with the Philosopher token. Or, if the character is in play, place the drunk marker by that player and the Not the Philosopher token by the Philosopher.",
+        "firstNightReminder": "If they chose a character: Swap the out-of-play character token with the Philosopher token. Or, if the character is in play, place the drunk marker by that player.",
         "otherNight": 2,
-        "otherNightReminder": "If the Philosopher has not used their ability: the Philosopher either shows a 'no' head signal, or points to a good character on their sheet. If they chose a character: Swap the out-of-play character token with the Philosopher token. Or, if the character is in play, place the drunk marker by that player and the Not the Philosopher token by the Philosopher.",
+        "otherNightReminder": "If they chose a character: Swap the out-of-play character token with the Philosopher token. Or, if the character is in play, place the drunk marker by that player",
         "reminders": [
             "Drunk",
             "Is the Philosopher"
@@ -2262,9 +2292,9 @@
         "edition": "snv",
         "team": "townsfolk",
         "firstNight": 42,
-        "firstNightReminder": "The Seamstress either shows a 'no' head signal, or points to two other players. If the Seamstress chose players , nod 'yes' or shake 'no' for whether they are of same alignment.",
+        "firstNightReminder": "If the Seamstress chose players , nod 'yes' or shake 'no' for whether they are of same alignment.",
         "otherNight": 61,
-        "otherNightReminder": "If the Seamstress has not yet used their ability: the Seamstress either shows a 'no' head signal, or points to two other players. If the Seamstress chose players , nod 'yes' or shake 'no' for whether they are of same alignment.",
+        "otherNightReminder": "If the Seamstress chose players , nod 'yes' or shake 'no' for whether they are of same alignment.",
         "reminders": [
             "No ability"
         ],
@@ -2338,9 +2368,9 @@
         "edition": "snv",
         "team": "townsfolk",
         "firstNight": 20,
-        "firstNightReminder": "The Snake Charmer points to a player. If that player is the Demon: swap the Demon and Snake Charmer character and alignments. Wake each player to inform them of their new role and alignment. The new Snake Charmer is poisoned.",
+        "firstNightReminder": "The Snake Charmer points to a player. If that player is the Demon: swap the Demon and Snake Charmer character and alignments.",
         "otherNight": 12,
-        "otherNightReminder": "The Snake Charmer points to a player. If that player is the Demon: swap the Demon and Snake Charmer character and alignments. Wake each player to inform them of their new role and alignment. The new Snake Charmer is poisoned.",
+        "otherNightReminder": "The Snake Charmer points to a player. If that player is the Demon: swap the Demon and Snake Charmer character and alignments.",
         "reminders": [
             "Poisoned"
         ],
@@ -2734,22 +2764,14 @@
     },
     {
         "id": "wizard",
+        "reminders": ["?"],
         "name": "Wizard",
-        "edition": "",
         "team": "minion",
-        "firstNight": 24,
-        "firstNightReminder": "The Wizard .....",
-        "otherNight": 15,
-        "otherNightReminder": "The Wizard .....",
-        "reminders": [
-            "Cursed"
-        ],
-        "setup": false,
-        "ability": "Each night, choose a player: if they nominate tomorrow, they die. If just 3 players live, you lose this ability.",
-        "image": "/build/img/icons/minion/wizard.png",
-        "icon": "wizard.png",
-        "home_script": "experimental",
-        "type": "minion"
+        "firstNight": 28.1,
+        "firstNightReminder": "Run the Wizard ability if applicable.",
+        "otherNight": 14.1,
+        "otherNightReminder": "Run the Wizard ability if applicable.",
+        "ability": "Once per game, choose to make a wish.  If granted, it might have a price & leave a clue as to its nature."
     },
     {
         "id": "xaan",
