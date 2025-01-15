@@ -259,19 +259,19 @@ for script_name in script_names:
     additional_reminders_dict = {'DAWN':{'firstNightReminder': '',
                                         'otherNightReminder': '',
                                         'id': 'dawn',  # Use the item as the ID
-                                        'image_location': 'components/dawn.png'},
+                                        'image_location': 'img/components/dawn.png'},
                                 'DUSK':{'firstNightReminder': '',
                                         'otherNightReminder': '',
                                         'id': 'dusk',  # Use the item as the ID
-                                        'image_location': 'components/dusk.png'},
+                                        'image_location': 'img/components/dusk.png'},
                                 'DEMON':{'firstNightReminder': 'Wake the Demon, show them their Minions and their Bluffs',
                                         'otherNightReminder': '',
                                         'id': 'dawn',  # Use the item as the ID
-                                        'image_location': 'components/demon.png'},
+                                        'image_location': 'img/components/demon.png'},
                                 'MINION':{'firstNightReminder': 'Wake the Minions, show them the Demon',
                                         'otherNightReminder': '',
                                         'id': 'dawn',  # Use the item as the ID
-                                        'image_location': 'components/minion.png'}}
+                                        'image_location': 'img/components/minion.png'}}
 
     first_night_sheet = create_night_sheet(first_night_order_script, characters_json, additionnal_reminders, additional_reminders_dict)
     other_night_sheet = create_night_sheet(other_night_order_script, characters_json, additionnal_reminders, additional_reminders_dict)

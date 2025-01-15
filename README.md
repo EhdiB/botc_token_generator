@@ -1,16 +1,20 @@
 # Blood on the Clocktower - Token Maker
 
-This project allows to create tokens to print and play Blood on the Clocktower. 
+This project allows to create tokens to print and play Blood on the Clocktower. The tokens will be added to a pdf to simplify the printing. 
+
+Custom Scaling: to be released...
 
 Token Examples:
-![tokens_examples](tokens_examples.png "Tokens Examples")
+![tokens_examples](img/tokens_examples.png "Tokens Examples")
 
 Reminder Examples:
-![reminders_examples](reminders_examples.png "Reminders Examples")
+![reminders_examples](img/reminders_examples.png "Reminders Examples")
+
+
+The ability to print only a subset of tokens is not implemented here, but could be a future release. There are still workarounds, like removing them from characters.txt or editing the scripts. 
 
 ---
 ## Table of Contents
-
 - [Prerequisites](#prerequisites)
 - [Setup Instructions](#setup-instructions)
 - [Features](#features)
@@ -78,19 +82,30 @@ pip install -r requirements.txt
 
 
 ### 3. Run the Application
-After setting up the environment and installing dependencies, start the application:
+After setting up the environment and installing dependencies, we can get started!
 
+Run the following command in the terminal to give the script execute permissions:
 ```bash
-python programtorun.py
+chmod +x run_all.sh
 ```
 
 
-## Features
+Execute the script with:
+```bash
+./run_all.sh
+```
 
+
+**All files will be save in the "output_prints" folder**
+
+
+## Features
 To run a specific function, run the following (replacing PythonFileName with any of the feature functions): 
 ```bash
 python {PythonFileName}.py
 ```
+
+**All files will be save in the "output_prints" folder**
 
 If running for the first time, it is recommended to run them using the following order:
 
